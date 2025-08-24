@@ -1,0 +1,70 @@
+What is Java?
+- Java is an Object-Oriented Programming Language (OOPs) developed by James Gosling at Sun Microsystems in 1995.
+- It is widely used for building web applications, mobile apps, desktop software, and enterprise solutions.
+--------------------------------------------------------------------------------
+Types of Programming Languages
+Programming languages can be broadly classified based on how they are designed and how they handle data + logic.
+
+1. Structured Programming Languages
+- Definition: Structured languages follow a top-down approach where programs are divided into functions or procedures.
+    Main focus = control flow (sequence, selection, iteration).
+    Improves readability and reduces complexity compared to older unstructured languages.
+- Key Features:
+    Code is broken into functions/procedures.
+    Uses loops (for, while) and conditionals (if-else, switch).
+    Encourages step-by-step execution.
+    No concept of classes/objects.
+- Examples:
+C → Classic example, widely used for system programming.
+
+2. Object-Based Programming Languages
+- Definition: Object-based languages introduced the idea of using objects (data + behavior), but they do not support full OOP concepts such as inheritance and polymorphism.
+- Key Features:
+    Use of objects for data representation.
+    Support encapsulation (wrapping data + methods).
+    Support abstraction (hiding unnecessary details).
+    Do NOT support inheritance or polymorphism.
+- Examples:
+VB (Visual Basic) , VBScript
+
+3. Object-Oriented Programming Languages (OOP)
+- Definition: OOP languages are based fully on the Object Model, where programs are structured using classes and objects, and they support all OOP principles.
+- Key Features:
+    Class & Object → Blueprint and its instance.
+    Encapsulation → Binding data + methods together.
+    Abstraction → Expose only essential details.
+    Inheritance → Reuse properties/methods from another class.
+    Polymorphism → Same method behaves differently (overloading, overriding).
+    Promote reusability, modularity, scalability.
+- Examples: C++, Java, C#, Python (fully supports OOP along with other paradigms).
+--------------------------------------------------------------------------------
+OOPs Concepts in Java
+1. Class – Blueprint/template that defines data (variables) and behavior (methods).
+2. Object – An instance of a class.
+3. Polymorphism – Ability of one method/entity to behave differently (method overloading & overriding).
+4. Inheritance – Mechanism to acquire properties/methods from another class.
+5. Abstraction – Hiding internal details and showing only the essential features.
+6. Encapsulation – Wrapping data (variables) and methods into a single unit (class).
+--------------------------------------------------------------------------------
+Features of Java
+- Platform Independent – “Write once, run anywhere” (WORA) through JVM.
+- Case Sensitive – Java distinguishes between uppercase and lowercase (e.g., sum and Sum are different).
+- Robust, Secure, and Portable – Handles errors, memory management, and security effectively.
+- Multi-threaded – Supports concurrent execution.
+- High Performance – Uses JIT (Just-In-Time) compiler.
+--------------------------------------------------------------------------------
+Java Components
+1. JDK (Java Development Kit):
+    Provides tools to develop, compile, and debug Java programs.
+    Includes JRE + development tools.
+2. JRE (Java Runtime Environment):
+    Provides libraries and components required to run Java programs.
+    Includes JVM + runtime libraries.
+3. JVM (Java Virtual Machine):
+    Executes Java bytecode.
+    Provides platform independence.
+--------------------------------------------------------------------------------
+Comments 
+/ -> Single line comment 
+/* */ -> Multi line comment
+--------------------------------------------------------------------------------
