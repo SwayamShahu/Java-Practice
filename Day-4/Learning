@@ -1,0 +1,9 @@
+Operators
+
+There are 6 types of operators- 
+    1. Arithmetic Operators -> + , - , * , / , %
+    2. Logical Operators -> && , || , !
+    3. Relational (Comparison) Operators -> == , != , > , < , >= , <=
+    4. Increment / Decrement Operators -> ++ , --
+    5. Assignment Operators -> = , += , -= , *= , /= , %=
+    6. Bitwise Operators -> & , | , ^ , ~ , << , >> , >>>
