@@ -1,0 +1,26 @@
+What is variable? 
+variable is a container which is used to store values. 
+
+Data types
+1. Premitive 
+    - byte, short, int, long -> number without decimal
+    - float, double -> decimal number
+    - char -> Single character (Single Quote)
+    - boolean -> true / false
+2. Non- Premitive/ Derived/ Collection
+    - String
+    - ArrayList
+    - HashMap
+    - Hashset
+
+Data type     Size      Range
+byte          1 byte    -128 to 127
+short         2 byte    32768 to -32767
+int           4 byte    2147483648 to 2147483648
+long          8 byte    -2^8*8 to 2^8*8-1
+
+float         4 byte    upto 7 decimal digits
+double        8 byte    upto 15 decimal digits
+
+boolean       1 bit     Store true or false
+char          2 bytes   Store Single character 
