@@ -1,0 +1,206 @@
+Java Conditional Statements and Concepts
+
+Conditional statements in Java allow a program to make decisions based
+on conditions. They control the flow of execution depending on whether a
+condition evaluates to true or false.
+
+------------------------------------------------------------------------
+
+1. The if Statement
+
+The simplest conditional statement. Executes a block if the condition is
+true.
+
+Syntax:
+
+    if (condition) {
+        // code executes if condition is true
+    }
+
+Example:
+
+    int score = 85;
+    if (score >= 60) {
+        System.out.println("Passed");
+    }
+
+------------------------------------------------------------------------
+
+2. The if-else Statement
+
+Provides an alternative block if the condition is false.
+
+Syntax:
+
+    if (condition) {
+        // code if true
+    } else {
+        // code if false
+    }
+
+Example:
+
+    int score = 45;
+    if (score >= 60) {
+        System.out.println("Passed");
+    } else {
+        System.out.println("Failed");
+    }
+
+------------------------------------------------------------------------
+
+3. The if-else if-else Ladder
+
+Used when multiple conditions need to be checked in sequence.
+
+Syntax:
+
+    if (condition1) {
+        // code
+    } else if (condition2) {
+        // code
+    } else {
+        // default code
+    }
+
+Example:
+
+    int score = 85;
+    if (score >= 90) {
+        System.out.println("A");
+    } else if (score >= 80) {
+        System.out.println("B");
+    } else if (score >= 70) {
+        System.out.println("C");
+    } else {
+        System.out.println("F");
+    }
+
+------------------------------------------------------------------------
+
+4. Nested if Statements
+
+Placing an if inside another if to check multiple levels of conditions.
+
+Example:
+
+    int age = 22;
+    boolean hasWaiver = true;
+
+    if (age >= 25) {
+        System.out.println("Car rental approved.");
+    } else {
+        if (age >= 21 && hasWaiver) {
+            System.out.println("Car rental approved with waiver.");
+        } else {
+            System.out.println("Car rental denied.");
+        }
+    }
+
+------------------------------------------------------------------------
+
+5. The switch Statement
+
+Used when one variable is compared against multiple constant values.
+More readable than multiple if-else.
+
+Syntax:
+
+    switch (expression) {
+        case value1:
+            // code
+            break;
+        case value2:
+            // code
+            break;
+        default:
+            // code if no match
+    }
+
+Example:
+
+    int code = 3;
+    switch (code) {
+        case 1: System.out.println("Cola"); break;
+        case 2: System.out.println("Chips"); break;
+        case 3: System.out.println("Candy"); break;
+        default: System.out.println("Invalid code");
+    }
+
+------------------------------------------------------------------------
+
+Fall-through in switch
+
+If break is omitted, execution continues into the next case. Useful for
+grouping.
+
+Example:
+
+    int month = 9;
+    switch (month) {
+        case 4: case 6: case 9: case 11:
+            System.out.println("30 days");
+            break;
+        case 2:
+            System.out.println("28 days");
+            break;
+        default:
+            System.out.println("31 days");
+    }
+
+------------------------------------------------------------------------
+
+6. Ternary Operator ?:
+
+A shorthand if-else. It evaluates a condition and returns one of two
+values.
+
+Syntax:
+
+    variable = (condition) ? value_if_true : value_if_false;
+
+Example:
+
+    int number = 15;
+    String result = (number % 2 == 0) ? "Even" : "Odd";
+    System.out.println(result);
+
+------------------------------------------------------------------------
+
+7. Case Sensitivity and String Comparison
+
+When using switch with String, comparisons are case-sensitive. Convert
+to lowercase/uppercase to avoid errors.
+
+Example:
+
+    String color = "yellow".toUpperCase();
+    switch (color) {
+        case "RED": System.out.println("Stop"); break;
+        case "YELLOW": System.out.println("Prepare to stop"); break;
+        case "GREEN": System.out.println("Go"); break;
+    }
+
+------------------------------------------------------------------------
+
+8. Practical Use-Cases
+
+-   Grading System → if-else if
+-   Menu/Vending Machine → switch
+-   Login validation → nested if
+-   Traffic light simulation → switch
+-   Discount calculation → if-else
+
+------------------------------------------------------------------------
+
+Summary
+
+-   if → single condition
+-   if-else → two conditions
+-   if-else if-else → multiple conditions
+-   Nested if → layered checks
+-   switch → multiple discrete cases
+-   Ternary → compact inline conditional
+
+Mastering these allows you to handle decision-making in Java programs
+effectively.
