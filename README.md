@@ -14,14 +14,7 @@ This is a personal challenge where I aim to practice Java daily, focusing on one
 
 📁 Folder Structure:
 ------------------------------------------------------------
-Day1/
-  - Learning.txt
-  - Problem1.java
-  - Problem2.java
-Day2/
-  - Learning.txt
-  - Problem1.java
-  ...
+<pre> ``` Day1/ ├── Learning.txt ├── Problem1.java └── Problem2.java Day2/ ├── Learning.txt └── Problem1.java ``` </pre>
 ------------------------------------------------------------
 
 📌 Goals:
