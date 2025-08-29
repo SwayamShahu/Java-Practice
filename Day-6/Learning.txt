@@ -1,0 +1,41 @@
+Looping in Java
+
+1. while loop:
+   - The while loop is used when we do not know the number of iterations in advance.
+   - Syntax:
+        while (condition) {
+            // code to be executed
+        }
+
+2. do-while loop:
+   - Similar to while loop, but guarantees at least one execution of the code block.
+   - Syntax:
+        do {
+            // code to be executed
+        } while (condition);
+
+3. for loop:
+   - The most commonly used loop when the number of iterations is known.
+   - Syntax:
+        for (initialization; condition; update) {
+            // code to be executed
+        }
+
+
+Jumping Statements in Java
+
+1. break:
+   - Used to terminate the loop immediately when a certain condition is met.
+   - Example:
+        for (int i = 0; i < 5; i++) {
+            if (i == 3) break;
+            System.out.println(i);
+        }
+
+2. continue:
+   - Skips the current iteration and moves to the next iteration of the loop.
+   - Example:
+        for (int i = 0; i < 5; i++) {
+            if (i == 3) continue;
+            System.out.println(i);
+        }
