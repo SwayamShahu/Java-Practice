@@ -1,0 +1,56 @@
+1. What is an Array?
+    An Array is a collection of similar data types stored in contiguous memory locations.
+    It is a fixed-size data structure.
+    Each element in the array is accessed using an index (starting from 0).
+Exampele - 
+int[] numbers = {10, 20, 30, 40, 50};
+System.out.println(numbers[0]); // Output: 10
+System.out.println(numbers[4]); // Output: 50
+
+2. Array Declaration
+    There are two ways to declare arrays in Java:
+    int[] arr;   // Recommended way
+    int arr2[];  // Also valid
+    At this point, memory is not allocated.
+
+3. Array Creation
+    arr = new int[5]; // Creates an array of size 5
+    Example - 
+    int[] arr = new int[5]; 
+    arr[0] = 10; 
+    arr[1] = 20; 
+    System.out.println(arr[1]); // Output: 20
+
+4. Array Initialization
+    - Static Initialization (known values):
+    int[] arr = {1, 2, 3, 4, 5};
+
+
+    - Dynamic Initialization (values assigned later):
+
+    int[] arr = new int[5];
+    arr[0] = 10;
+    arr[1] = 20;
+
+5. Types of arrays 
+    1. Single-Dimensional Array
+    int[] arr = {1, 2, 3, 4};
+
+
+    2. Multi-Dimensional Array (array of arrays)
+    int[][] matrix = {
+        {1, 2, 3}, 
+        {4, 5, 6}
+    };
+    System.out.println(matrix[1][2]); // Output: 6
+
+
+6. Default Values in Arrays
+    When created, arrays are initialized with default values:
+
+    int → 0
+    float → 0.0
+    boolean → false
+    object references → null
+
+    
