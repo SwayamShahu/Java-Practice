@@ -1,0 +1,56 @@
+1. length() 
+Returns the number of characters in the string.
+String s = "Hello";
+System.out.println(s.length()); // 5
+
+
+2. trim()
+Removes leading and trailing spaces.
+String s = "   Java   ";
+System.out.println(s.trim()); // "Java"
+
+3. contains()
+Checks if a substring exists inside the string.
+String s = "Programming in Java";
+System.out.println(s.contains("Java")); // true
+
+4. equals()
+Compares two strings (case-sensitive).
+String s1 = "Hello";
+String s2 = "hello";
+System.out.println(s1.equals(s2)); // false
+
+5. replace()
+Replaces characters or substrings.
+String s = "Java is fun";
+System.out.println(s.replace("fun", "powerful")); // "Java is powerful"
+
+6. charAt()
+Gets a character at a specific index.
+String s = "World";
+System.out.println(s.charAt(2)); // r
+
+7. concat()
+Joins two strings.
+String s1 = "Hello";
+String s2 = "World";
+System.out.println(s1.concat(" " + s2)); // "Hello World"
+
+8. substring()
+Extracts part of the string.
+String s = "Programming";
+System.out.println(s.substring(0, 6)); // "Progra"
+
+9. toUpperCase() & toLowerCase()
+Converts string to upper/lower case.
+String s = "Java";
+System.out.println(s.toUpperCase()); // "JAVA"
+System.out.println(s.toLowerCase()); // "java"
+
+10. split()
+Splits a string into parts (array).
+String s = "apple,banana,orange";
+String[] fruits = s.split(",");
+for(String fruit : fruits) {
+    System.out.println(fruit);
+}
