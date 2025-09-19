@@ -1,0 +1,53 @@
+Learning Polymorphism in OOP (Object-Oriented Programming)
+
+1. What is Polymorphism?
+- Polymorphism means "many forms."
+- In OOP, it allows one interface (method) to have multiple implementations depending on the object type.
+- Example:
+  Animal.makeSound() → Dog says "Woof!", Cat says "Meow!", Bird says "Chirp!"
+
+2. Types of Polymorphism
+1. Compile-time (Static Polymorphism)
+   - Achieved using method overloading or operator overloading.
+   - Example:
+     class MathUtil {
+         int add(int a, int b) { return a + b; }
+         double add(double a, double b) { return a + b; }
+     }
+   - Same method name but different parameter lists.
+
+2. Runtime (Dynamic Polymorphism)
+   - Achieved using method overriding.
+   - The method call is resolved at runtime based on the object.
+   - Example:
+     class Animal {
+         void sound() { System.out.println("Some sound"); }
+     }
+     class Dog extends Animal {
+         void sound() { System.out.println("Woof!"); }
+     }
+     Animal a = new Dog();
+     a.sound(); // Woof! (runtime decision)
+
+3. Key OOP Concepts in Polymorphism
+- Inheritance → Needed so subclasses can override parent class methods.
+- Method Overriding → Same method signature, subclass provides its own implementation.
+- Method Overloading → Same method name, different parameters (compile-time).
+- Upcasting → Parent reference can hold a child object (Animal a = new Dog();).
+- Dynamic Binding → Decision of which method to call happens at runtime.
+
+4. Advantages of Polymorphism
+- Code Reusability – Same interface, multiple implementations.
+- Flexibility & Extensibility – Easy to add new classes without changing existing code.
+- Readability – Common method names across related classes.
+- Encapsulation with Abstraction – Works well with abstract classes and interfaces.
+
+5. Important Real-World Examples
+- Shape Area Calculator – Different shapes calculate area differently.
+- Vehicle Speeds – Car, Bike, Bicycle each return their own speed.
+- Animal Sounds – Each animal makes a different sound.
+- Employee Salaries – Manager, Developer, Intern all calculate salary differently.
+- Bank Accounts – Savings and Checking accounts handle withdrawals differently.
+
+Quick Takeaway:
+Polymorphism = one method, many behaviors, achieved through overloading (compile-time) and overriding (runtime).
