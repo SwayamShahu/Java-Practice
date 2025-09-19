@@ -1,0 +1,30 @@
+Class & Methods 
+----------------------------------------------------------------------------------------------
+
+What is a Class?
+Think of a class as a blueprint or a template. It describes the properties (variables) and behaviors (methods) that an object of its type will have. It doesn't represent a real thing yet, just the plan for it.
+
+1. Fields (or Instance Variables): These are the properties or attributes of the object. For a Car class, fields could be color, brand, and speed.
+
+
+2. Methods: These are the actions or behaviors the object can perform. For a Car class, methods could be startEngine(), accelerate(), and brake().
+
+A method signature has several parts:
+
+
+1. Access Modifier: Who can use this method? (public, private, etc.).
+
+
+2. Return Type: What kind of data does this method send back after it's done? If it returns nothing, use void.
+3. Method Name: A unique name for the method (e.g., calculateSum).
+
+
+4. Parameters: The input data the method needs to work with, placed inside the parentheses ().
+
+----------------------------------------------------------------------------------------------
+
+What is an Object? 
+
+An object is a real-world instance created from a class. If a class is the blueprint for a car, an object is the actual car you build from that blueprint. You can create many objects (many cars) from a single class (one blueprint).
+
+----------------------------------------------------------------------------------------------
