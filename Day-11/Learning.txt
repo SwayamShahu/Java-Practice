@@ -1,0 +1,44 @@
+Abstraction
+-------------------------------------------------------------- 
+Def -> Abstraction in Java is the process of hiding internal implementation details and showing only essential functionality to the user. It focuses on what an object does rather than how it does it.
+--------------------------------------------------------------
+How to Achieve Abstraction in Java?
+Java provides two ways to implement abstraction, which are listed below:
+	- Abstract Classes (Partial Abstraction)
+	- Interface (100% Abstraction)
+--------------------------------------------------------------
+1. Abstract Classes
+ - 
+An abstract class is a class that cannot be instantiated (you can't create an object of it).
+
+It can have both abstract methods (methods without a body) and concrete methods (methods with a body).
+
+Any subclass that extends an abstract class must provide a concrete implementation for all of its inherited abstract methods.
+
+Example
+public abstract class Shape {
+    
+    // Abstract method: must be implemented by concrete subclasses
+    public abstract double calculateArea();
+    
+    // Concrete method: a common method shared by all subclasses
+    public void displayInfo() {
+        System.out.println("This is a generic shape.");
+    }
+}
+
+2. Interfaces - 
+
+An interface is a blueprint of a class. It defines a set of methods that a class must implement.
+
+By default, all methods in an interface are implicitly public and abstract (before Java 8).
+
+A key advantage of interfaces is that a class can implement multiple interfaces, which allows for greater flexibility than abstract classes (as a class can only extend one abstract class).
+
+Example
+public interface Movable {
+    
+    // Abstract method: implicitly public and abstract
+    void move(int x, int y);
+}
+--------------------------------------------------------------
