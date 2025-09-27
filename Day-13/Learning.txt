@@ -1,0 +1,13 @@
+Encapsulation
+In Java, encapsulation is a fundamental principle of object-oriented programming that involves bundling an object's data (instance variables) and methods (behaviors) together within a class. The primary goal is to hide the internal state of an object from the outside world and only expose the necessary functionality through public methods.
+- This is achieved primarily through two mechanisms:
+- Declaring the instance variables of a class as private.
+Providing public methods, known as getters and setters, to access and modify the values of the private variables.
+
+Example - 
+Analogy: A Vending Machine
+A vending machine is a great real-world example of encapsulation in Java.
+
+1. Private Data: The internal mechanisms, like the cash storage, the product inventory, and the logic for dispensing items, are hidden. You can't just reach in and grab a chocolate bar or change the price of a soda. These are the private variables.
+2. Public Interface: The machine provides a clear public interface: a set of buttons to select an item, a slot to insert money, and a tray to collect your purchase. These are the public methods (selectItem(), insertMoney(), dispenseItem()).
+You interact with the machine through its public interface, and the machine handles all the internal logic securely.
