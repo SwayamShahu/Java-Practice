@@ -1,0 +1,24 @@
+Wrapper Classes
+Java has primitive data types like int, char, double, boolean, etc. Sometimes, we need to treat them as objects. That’s where Wrapper Classes come in. A Wrapper Class “wraps” a primitive type into an object.
+
+| Primitive Type | Wrapper Class |
+| -------------- | ------------- |
+| byte           | Byte          |
+| short          | Short         |
+| int            | Integer       |
+| long           | Long          |
+| float          | Float         |
+| double         | Double        |
+| char           | Character     |
+| boolean        | Boolean       |
+
+Access Modifiers in Java
+Access modifiers control the visibility of classes, methods, and variables. They are used to implement encapsulation.
+
+Java has 4 main access modifiers:
+| Modifier    | Class | Package  | Subclass  | World (Anywhere) |
+| ----------- | ----- | -------  | --------  | ---------------- |
+| `private`   | ✔     | ✖       | ✖        | ✖                |
+| `default`   | ✔     | ✔       | ✖        | ✖                |
+| `protected` | ✔     | ✔       | ✔        | ✖                |
+| `public`    | ✔     | ✔       | ✔        | ✔                |
